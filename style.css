@@ -12,6 +12,7 @@ input, button {
   font-size: 1rem;
   padding: 0.5rem;
   margin: 0.5rem 0;
+  cursor: pointer;
 }
 table {
   width: 100%;
@@ -30,8 +31,8 @@ th, td {
   margin-top: 1rem;
 }
 #loadMore {
-  display: none;
   margin: 1rem auto;
+  display: block;
   padding: 0.5rem 1rem;
   font-size: 1rem;
 }
