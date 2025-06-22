@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Password Leak Viewer</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Password Leak Viewer</h1>
+  <input id="queryInput" placeholder="Enter username or email fragment" />
+  <button id="searchBtn">Search</button>
+  <div id="resultsWrapper">
+    <table id="resultsTable" style="display:none;">
+      <thead>
+        <tr><th>Username (Email)</th><th>Password</th></tr>
+      </thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+  </div>
+  <button id="loadMore">Load More</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
